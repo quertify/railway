@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<title>RAILWAY</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css\bootstrap.css">
+<link rel="stylesheet" href="css\bootstrap-theme.css">
+<link rel="stylesheet" href="css\bootstrap-theme.min.css">
+<style>
+body{	
+    background-image: url("train1.jpg");
+	  background-repeat: no-repeat;
+	  background-size:100%;
+
+}
+h1{
+font-size: 50px;
+}
+
+</style>
+</head>
+<body id ="registerpage" data-offset="60">
+
+
+<header class="container">
+  <h1>Book My Train</h1>
+</header>
+
+
+
+<div class="container">
+  <form class="form-horizontal" method="POST" action="reg.php">
+  <div class="form-group">
+   <label class="control-label col-sm-2" for="name">Username:</label>
+   <div class="col-sm-8">
+	<input type="text" class="form-control" id="name" placeholder="Enter Username" name="name">
+   </div>
+  </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-8">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-8">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="pwd"> Confirm Password:</label>
+      <div class="col-sm-8">          
+        <input type="password" class="form-control" id="cpwd" placeholder="Enter password" name="cpwd">
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="phn">Phone:</label>
+      <div class="col-sm-8">          
+        <input type="number" class="form-control" id="phn" placeholder="Enter phone-number" name="phn">
+      </div>
+    </div>
+   
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-8">
+        <input type="submit" class="btn btn-success btn-lg" value="register"></button>
+        <input type="reset" class="btn btn-default btn-lg" value="reset"></button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+<script src="js\bootstrap.js"></script>
+
+</body>
+</html> 
